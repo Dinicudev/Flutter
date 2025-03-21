@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="mi_primer_app"
+=======
+        android:label="teoria_0"
+>>>>>>> acaf2b0 (He hecho una pantalla con un boton)
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

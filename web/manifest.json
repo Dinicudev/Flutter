@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "mi_primer_app",
     "short_name": "mi_primer_app",
+=======
+    "name": "teoria_0",
+    "short_name": "teoria_0",
+>>>>>>> acaf2b0 (He hecho una pantalla con un boton)
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

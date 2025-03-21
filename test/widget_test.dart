@@ -8,7 +8,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+<<<<<<< HEAD
 import 'package:mi_primer_app/main.dart';
+=======
+import 'package:teoria_0/main.dart';
+>>>>>>> acaf2b0 (He hecho una pantalla con un boton)
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

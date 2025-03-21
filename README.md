@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # mi_primer_app
+=======
+# teoria_0
+>>>>>>> acaf2b0 (He hecho una pantalla con un boton)
 
 A new Flutter project.
 

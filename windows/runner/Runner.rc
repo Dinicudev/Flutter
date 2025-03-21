@@ -90,12 +90,21 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+<<<<<<< HEAD
             VALUE "FileDescription", "mi_primer_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "mi_primer_app" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "mi_primer_app.exe" "\0"
             VALUE "ProductName", "mi_primer_app" "\0"
+=======
+            VALUE "FileDescription", "teoria_0" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "teoria_0" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "teoria_0.exe" "\0"
+            VALUE "ProductName", "teoria_0" "\0"
+>>>>>>> acaf2b0 (He hecho una pantalla con un boton)
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

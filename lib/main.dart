@@ -7,6 +7,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+<<<<<<< HEAD
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -31,10 +32,19 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       home: const MyHomePage(title: 'Flutter Prueba Noemi'),
+=======
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      theme: ThemeData(primarySwatch: 
+      Colors.blue), //no se por que no funciona pero de esta manera no me deja he tenido que ponerlo manualmente
+      home: const RootPage(),
+>>>>>>> acaf2b0 (He hecho una pantalla con un boton)
     );
   }
 }
 
+<<<<<<< HEAD
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
@@ -145,3 +155,31 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+=======
+//La raiz de nuestra aplicación
+class RootPage extends StatefulWidget {
+  const RootPage({super.key});
+
+  @override
+  State<RootPage> createState() =>
+   _RootPageState();
+}
+
+class _RootPageState extends 
+State<RootPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title:const Text("Prueba de flutter"),
+        backgroundColor: Colors.blue,
+        ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: (){},
+          backgroundColor: Colors.blue,
+          child: Icon(Icons.home),
+          ),
+    );
+  }
+}  
+>>>>>>> acaf2b0 (He hecho una pantalla con un boton)

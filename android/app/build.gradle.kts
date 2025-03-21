@@ -6,7 +6,11 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.mi_primer_app"
+=======
+    namespace = "com.example.teoria_0"
+>>>>>>> acaf2b0 (He hecho una pantalla con un boton)
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -21,7 +25,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
         applicationId = "com.example.mi_primer_app"
+=======
+        applicationId = "com.example.teoria_0"
+>>>>>>> acaf2b0 (He hecho una pantalla con un boton)
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
